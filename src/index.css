@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Alibaba-PuHuiTi';
+  src: url('/Alibaba-PuHuiTi-Medium.ttf');
+}
+
+* {
+  font-family: 'Alibaba-PuHuiTi';
+}
+
+.i-icon > svg {
+  display: inline;
+}
