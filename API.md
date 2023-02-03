@@ -99,10 +99,8 @@
   ]
 }
 ```
-
-<details>
-
-<summary>以下API为旧版，待审核修改</summary>
+> **Note**
+> 以下接口均无请求参数。
 
 ### 获取博客标签列表
 
@@ -113,7 +111,10 @@
 博客标签的数组
 
 ```json
-["综合", "Python"]
+[
+  "综合",
+  "Python"
+]
 ```
 
 ### 获取架构统计信息
@@ -157,7 +158,7 @@
 ## 后台
 
 > **Note**  
-> 以下请求中 Cookies 需携带 GitHub OAuth 的 token
+> 除特殊情况有另外说明外，以下请求中 Cookies 需携带 GitHub OAuth 的 token
 
 ### 鉴权
 
