@@ -5,7 +5,7 @@
 1. Fork 并 close 仓库至本地
 
 ```
-git clone git@github.com:YOUR_GITHUB_USERNAME/blog-daohang.git
+git clone git@github.com:YOUR_GITHUB_USERNAME/frontend.git
 ```
 
 2. 为新特性或 Issue 创建一个语义化分支
