@@ -1,53 +1,28 @@
-# Next.js & NextUI Template
+# V3 Frontend
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
+项目使用 Next.js 开发，并使用 App Router 以及 TypeScript。
 
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
-
-## Technologies Used
-
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
-
-## How to Use
-
-### Use the template with create-next-app
-
-To create a new project based on this template using `create-next-app`, run the following command:
+## 安装依赖
 
 ```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
+pnpm install
 ```
 
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+## 启动开发服务器
 
 ```bash
-npm install
+pnpm run dev
 ```
 
-### Run the development server
+## 提交前建议
+
+运行`pnpm run lint`检查代码风格。
+
+## 生产环境部署
+
+TODO: dockerfile
 
 ```bash
-npm run dev
+pnpm run build # 构建
+pnpm run start # 启动
 ```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@nextui-org/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
